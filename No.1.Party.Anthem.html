@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APlayer Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+
+    <!-- APlayer 容器 -->
+    <div id="aplayer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            audio: [
+    {
+      name: 'No.1 Party Anthem',
+      artist: 'Arctic Monkeys',
+      url: 'https://al2.hyphen1.top/d/root/music/Arctic%20Monkeys%20-%20No.1%20Party%20Anthem.flac?sign=8MvXfD88zFPF56cVHBFEHBM6-mCPxUhW-eZl3gCErqk=:0',
+      //'https://audio.jukehost.co.uk/lexb6zKbMvYg1KPUVqBg58nbUZqHPOAL', 
+      //https://api.injahow.cn/meting/?server=tencent&type=song 
+      //https://bafybeia7lvujbe43kvs2jvgfe2zxm2tpww5tajttgk5gnt55ifrxwlylqu.ipfs.w3s.link/%E8%8F%AF%E8%89%B2%E3%81%AE%E9%9D%92%E6%98%A5.mp3
+      //
+      cover: 'https://ptpimg.me/q8o569.jpg
+    },
+    ]
+        });
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js" integrity="sha256-DStvI2Hn4M5Gam7UWOA9qlWEtC72kmw762LrZGcMomE=" crossorigin="anonymous"></script>
+</body>
+</html>
