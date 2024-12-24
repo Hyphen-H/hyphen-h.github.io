@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APlayer Demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+
+    <!-- APlayer 容器 -->
+    <div id="aplayer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+    <script>
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            audio: [
+    {
+      name: '華色の青春',
+      artist: 'うたたね歌菜',
+      url: 'https://al1.hyphen1.top/d/root/%E8%8F%AF%E8%89%B2%E3%81%AE%E9%9D%92%E6%98%A5.flac?sign=xErYNsGmWqttleXyfSqdI5FhXjH8cBRkd6B0KCckfdA=:0',
+      //'https://audio.jukehost.co.uk/lexb6zKbMvYg1KPUVqBg58nbUZqHPOAL', 
+      //https://api.injahow.cn/meting/?server=tencent&type=song 
+      //https://bafybeia7lvujbe43kvs2jvgfe2zxm2tpww5tajttgk5gnt55ifrxwlylqu.ipfs.w3s.link/%E8%8F%AF%E8%89%B2%E3%81%AE%E9%9D%92%E6%98%A5.mp3
+      //
+      cover: 'https://ptpimg.me/6knv1o.png'
+    },
+    {
+      name: 'She Was Running (From “My Brilliant Friend” TV Series Soundtrack).mp3',
+      artist: 'Max Richter',
+      url: 'https://audio.jukehost.co.uk/OeIV4yhtIP7LhuLw1EkTi3HZVDWsJVQM',
+      cover: 'https://ptpimg.me/ke8dos.jpg'
+    },
+    {
+      name: '结衣の决意',
+      artist: '黒須克彦',
+      url: 'https://audio.jukehost.co.uk/ZUFD3WJSwySvQvdOZt5aWSTflsiXhDnF',
+      //https://od.lk/s/NzZfMTA5Mzk2ODY3Xw/%E7%B5%90%E8%A1%A3%E3%81%AE%E6%B1%BA%E6%84%8F.mp3',
+      //https://bafybeigfcockmvggzaw4ylbq2c4nliwcxm73phhk7lz42slextwnfx4m54.ipfs.w3s.link/%E7%B5%90%E8%A1%A3%E3%81%AE%E6%B1%BA%E6%84%8F.mp3
+      cover: 'https://ptpimg.me/y5jyz0.png'
+    },
+    ]
+        });
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11.3.0/dist/mermaid.min.js" integrity="sha256-DStvI2Hn4M5Gam7UWOA9qlWEtC72kmw762LrZGcMomE=" crossorigin="anonymous"></script>
+</body>
+</html>
